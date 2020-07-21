@@ -1,0 +1,78 @@
+@media screen and (min-width : 401px)
+{
+  body{
+    font-size: 20pt;
+  }
+  #at{font-size:12pt;
+}
+
+}
+@media screen and (max-width : 400px)
+{
+  body{
+    font-size: 12pt;
+  }
+  #at{font-size:8pt;
+}
+  #picContainer{
+    margin-bottom:15vh;
+}
+}
+
+#posters{
+max-width: 100%;
+max-height:85vh;
+}
+
+
+#picContainer{
+    max-height:75vh
+}
+
+#container{height: 25vh;
+}
+
+#contact{justify-content: center;
+       display:flex;
+       flex-wrap: wrap;
+        color: white ;
+    /* font-size: 20pt; */
+}
+
+#at{
+display:inline}
+
+.conlink{margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+text-decoration: none;}
+
+
+@font-face{
+    font-family: dadfont;
+    src:url(lexusnobel-medium.ttf)
+}
+
+body{text-align: center;
+font-family:dadfont;
+background-color: black;
+min-height: 100vh;
+}
+
+
+.ll{margin-left: 75px;
+margin-right:75px;
+margin-top: 1rem;
+margin-bottom: 1rem;}
+
+.logo{
+    height: 35px;
+    margin-bottom: 0px;
+}
+
+#external{display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
