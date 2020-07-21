@@ -52,7 +52,7 @@ text-decoration: none;}
 
 @font-face{
     font-family: dadfont;
-    src:url(lexusnobel-medium.ttf)
+    src:url(elements/lexusnobel-medium.ttf)
 }
 
 body{text-align: center;
